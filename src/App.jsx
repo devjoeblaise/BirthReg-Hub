@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-
 import { auth } from "../Firebase-config";
-
 import Navbar from "./Components/Navbar";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
