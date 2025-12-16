@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../Firebase-config";
-import GoogleAuth from "../Components/GoogleAuth";
 import { toast } from "react-toastify";
 
 const Login = ({ setIsAuth }) => {
